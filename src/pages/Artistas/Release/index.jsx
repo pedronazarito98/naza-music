@@ -41,20 +41,13 @@ export function Release() {
             <h1>Eventos</h1>
             <LinkEvents>📆 11/Nov - Show </LinkEvents>
             <LinkEvents>📆 12/Nov - Live </LinkEvents>
-          </WrapperDate>
 
-          <div>
-            <DownloadMusic>
-              <FaFileDownload />
-              Baixar Música
-            </DownloadMusic>
-          </div>
+            <DownloadMusic>💾 Baixar Música</DownloadMusic>
+          </WrapperDate>
         </AsideArtists>
       </Container>
+
       <MusicsPlataform>
-        <CardMusic />
-        <CardMusic />
-        <CardMusic />
         <CardMusic />
         <CardMusic />
       </MusicsPlataform>

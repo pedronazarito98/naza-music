@@ -19,13 +19,13 @@ export function BannerArtists() {
       <Container>
         <WrapperInfo>
           <ImageBanner
+            loading="lazy"
             src={imgBg}
             alt="Fonseec"
-            roundedCircle
             className="img-circle"
           />
-          <TitleBanner> Fonseec </TitleBanner>
-          <SubtitleBanner> Rapper </SubtitleBanner>
+          <TitleBanner> George Arrunáteghi</TitleBanner>
+          <SubtitleBanner> Cantor </SubtitleBanner>
         </WrapperInfo>
       </Container>
     </BannerParallax>

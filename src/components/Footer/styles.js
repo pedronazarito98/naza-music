@@ -30,17 +30,16 @@ export const ListItems = styled.ul`
 
       height: 2px;
       bottom: 0;
-      left: 50%;
       width: 0;
+      align-items: center;
 
       background: none repeat scroll 0 0 transparent;
       background: var(--red-300);
       display: block;
-      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      transition: width 0.3s ease 0s, right 0.3s ease 0s;
     }
     &:hover::after {
       width: 100%;
-      left: 0;
     }
   }
 `;

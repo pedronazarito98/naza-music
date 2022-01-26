@@ -57,6 +57,10 @@ export const GlobalStyle = createGlobalStyle`
         cursor: pointer;
         border: none;
     }
+    a{
+        text-decoration: none;
+        color: white;
+    }
 
     [disabled] {
         opacity: 0.6;

@@ -40,12 +40,9 @@ export const TitleCard = styled.a`
   font-weight: 500;
   text-align: center;
   cursor: pointer;
+  color: var(--red-300);
 
   transition: color 0.4s;
-
-  &:hover {
-    color: var(--red-300);
-  }
 `;
 
 export const WrapperInfoCard = styled.section`
@@ -62,7 +59,7 @@ export const WrapperInfoCard = styled.section`
   display: flex;
   justify-content: space-between;
   flex-direction: ${(props) => props.direction && props.direction};
-  flex-wrap: ${(props) => (props.direction === "row" ? 'wrap' : 'wrap')};
+  flex-wrap: ${(props) => (props.direction === "row" ? "wrap" : "wrap")};
 
   @media screen and (max-width: 768px) {
     width: 425px;

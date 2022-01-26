@@ -25,7 +25,7 @@ export const WrapperInfo = styled.div`
 export const ImageBanner = styled.img`
   border-radius: 50%;
   width: 170px;
-  height: 156px;
+  height: 170px;
 `;
 
 export const TitleBanner = styled.h1`

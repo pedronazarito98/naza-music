@@ -8,10 +8,10 @@ import { Servicos } from "./pages/Servicos";
 import { Shows } from "./pages/Shows";
 import { Sobre } from "./pages/Sobre";
 import { Home } from "./pages/Home";
-import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Release } from "./pages/Artistas/Release";
+import { Navbar } from "./components/Navbar/NavBar";
 
 
 export default function Routes() {

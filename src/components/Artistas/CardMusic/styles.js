@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Card = styled.div`
   position: relative;
-  max-width: 300px;
+  max-width: 250px;
   height: 215px;
   background-color: #fff;
   margin: 30px 10px;
@@ -21,7 +21,7 @@ export const Card = styled.div`
 
 export const Image = styled.div`
   position: relative;
-  width: 260px;
+  width: 200px;
   height: 260px;
 
   top: -40%;

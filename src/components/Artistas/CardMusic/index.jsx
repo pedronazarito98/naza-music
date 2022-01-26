@@ -5,6 +5,7 @@ export function CardMusic() {
     <Card>
       <Image>
         <img
+          loading="lazy"
           href="#"
           src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg"
         />
